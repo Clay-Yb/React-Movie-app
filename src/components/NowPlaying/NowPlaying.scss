@@ -1,0 +1,46 @@
+.now_playing {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	transition: all 0.6s;
+	opacity: 0;
+	img {
+		height: 100%;
+		object-fit: cover;
+	}
+	.now_playing-details {
+		position: absolute;
+		bottom: 10%;
+		left: 10%;
+		color: #fff;
+
+		h3 {
+			font-size: 3rem;
+		}
+		p {
+			width: 600px;
+			font-size: 1rem;
+		}
+		.now_playing-rating {
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+			margin-top: 0.75rem;
+
+			span {
+				font-size: 0.9rem;
+			}
+		}
+	}
+
+	&.active_slide {
+		transform: translateX(0);
+		opacity: 1;
+	}
+	&.next_slide {
+		transform: translateX(100%);
+	}
+	&.prev_slide {
+		transform: translateX(-100%);
+	}
+}

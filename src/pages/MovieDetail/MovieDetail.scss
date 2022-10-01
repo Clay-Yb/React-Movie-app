@@ -1,0 +1,60 @@
+.movie_detail {
+	background-color: black;
+	position: relative;
+	height: 100%;
+	.img_div {
+		position: relative;
+		height: 80vh;
+		img {
+			display: block;
+			height: 100%;
+		}
+		.layer {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+	}
+
+	.movie_div {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 1rem;
+
+		img {
+			height: 420px;
+			border-radius: 4px;
+		}
+
+		.movie_div-details {
+			color: #fff;
+			h4 {
+				font-size: 2rem;
+			}
+			.movie_div-rating {
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+				margin-bottom: 1rem;
+			}
+
+			p {
+				width: 700px;
+				margin-bottom: 0.5rem;
+			}
+
+			.casts_container {
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+			}
+		}
+	}
+}

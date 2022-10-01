@@ -1,0 +1,42 @@
+.movie {
+	background-color: #050e12;
+	border-radius: 4px;
+	position: relative;
+	overflow: hidden;
+	img {
+		height: 350px;
+	}
+	.movie_rating {
+		position: absolute;
+		top: 0.3rem;
+		left: 0.3rem;
+		padding: 0.1rem 0.5rem;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		background-color: #fff;
+		border-radius: 4px;
+		svg {
+			color: gold;
+		}
+		span {
+			font-size: 0.85rem;
+		}
+	}
+	.movie_details {
+		height: 4.5rem;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding: 0 0.5rem;
+		h3 {
+			color: #828282;
+			font-size: 0.9rem;
+			font-weight: 500;
+		}
+		span {
+			color: #b6b6b6;
+			font-size: 0.8rem;
+		}
+	}
+}

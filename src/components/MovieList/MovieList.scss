@@ -1,0 +1,16 @@
+.movie_list {
+	padding: 2rem;
+	background-color: black;
+
+	h1 {
+		color: #fff;
+		padding-bottom: 1rem;
+	}
+	.movie_list-container {
+		display: grid;
+		align-items: center;
+		justify-content: center;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 1rem;
+	}
+}

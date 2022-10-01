@@ -1,0 +1,30 @@
+.home {
+	.now_playing-container {
+		position: relative;
+		height: 711px;
+		overflow: hidden;
+		.now_playing-btns {
+			width: 100%;
+			top: 50%;
+			transform: translateY(-50%);
+			position: absolute;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0 1rem;
+
+			button {
+				background-color: transparent;
+				border: none;
+				outline: none;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				svg {
+					font-size: 3rem;
+					color: #1a1f38;
+				}
+			}
+		}
+	}
+}

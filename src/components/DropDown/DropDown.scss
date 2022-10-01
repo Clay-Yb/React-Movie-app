@@ -1,0 +1,14 @@
+.dropdown {
+	display: flex;
+	gap: 1rem;
+	img {
+		width: 80px;
+	}
+	.dropdown_detail {
+		color: #fff;
+
+		span {
+			font-size: 0.9rem;
+		}
+	}
+}
